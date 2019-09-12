@@ -7,7 +7,7 @@
 <%@ page import="java.time.LocalDateTime" %>
 
 <%!
-    String getFormattedDate() {
+    private String getFormattedDate() {
         return LocalDateTime.now().format(DateTimeFormatter.ISO_DATE);
     }
 %>
